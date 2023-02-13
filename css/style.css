@@ -24,7 +24,6 @@ html{
     display: flex;
     align-items: center;
 }
-
 /* header */ 
 
  header{
@@ -53,4 +52,58 @@ header a{
     padding-right: 15px;
     padding-left: 10px;
     text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container2{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.first{
+    background-color: var(--bgmain1);
+}
+
+/* Main */
+main{
+    padding-top: 5rem;
+}
+.first{
+    background-color: var(--bgmain1);
+}
+
+/*Footer*/
+footer{
+    background-color: #000000;
+    color: var(--bgbody);
+}
+footer ul{
+    padding: 20px;
+}
+strong{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.one{
+    font-size: bold 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer hr{
+    border-top: 1px solid var(--bgbody);
+    color: var(--bgbody);
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+}
+.container3{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    color: lightgray;
 }
