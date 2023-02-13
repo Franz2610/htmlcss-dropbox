@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+:root{
+    --bgmain1: #B4D0E7;
+    --bgfooter: #000000;
+    --bgbody: #ffffff;
+    --button: #0061FF;
+}
+body{
+    background-color: var(--bgbody);
+    font-family: 'Open Sans', sans-serif;
+}
