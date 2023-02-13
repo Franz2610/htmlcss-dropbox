@@ -24,6 +24,41 @@ html{
     display: flex;
     align-items: center;
 }
+.space{
+    justify-items: space-between;
+}
+.debug{
+    border: 1px solid black;
+}
+.margb{
+    margin-top: 250px;
+}
+.center{
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container2{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container3{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    color: lightgray;
+}
+
+
+
+
+
 /* header */ 
 
  header{
@@ -38,6 +73,7 @@ html{
     align-content: baseline;
     justify-content: space-between;
     padding: 20px;
+    background-color: var(--bgbody);
  }
  header li{
     display: inline-block;
@@ -53,29 +89,50 @@ header a{
     padding-left: 10px;
     text-decoration: none;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-}
-.container2{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px;
-}
-.first{
-    background-color: var(--bgmain1);
-}
+
+
+
 
 /* Main */
+
 main{
     padding-top: 5rem;
 }
 .first{
     background-color: var(--bgmain1);
 }
+ main button{
+    background-color: var(--button);
+    color: #ffffff;
+    padding: 5px;
+ }
+ .jumbo{
+    width: 55%;
+    position: absolute;
+}
+.right{
+    float: right;
+    padding-bottom: 300px;
+}
+.left{
+    width: 40%;
+    float: left;
+}
+.title{
+    font-size: 3rem;
+}
+main p{
+    padding: 50px;
+}
+
+
+
+
+
+
 
 /*Footer*/
+
 footer{
     background-color: #000000;
     color: var(--bgbody);
@@ -98,12 +155,4 @@ footer hr{
     max-width: 100px;
     display: flex;
     align-items: center;
-}
-.container3{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px;
-    display: flex;
-    justify-content: flex-start;
-    color: lightgray;
 }
