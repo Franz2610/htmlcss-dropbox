@@ -10,6 +10,14 @@
     --bgbody: #ffffff;
     --button: #0061FF;
     --colort: #999;
+    --primoc: #A2D39B;
+    --secondoc: #61082B;
+    --terzoc: #0093CE;
+    --quartoc: #FF1C1C ;
+    --quintoc: #D5001F ;
+    --sestoc: #B4D0E7 ;
+    --settimoc: #0D2481 ;
+    --ottavoc: #FFD830 ;
 }
 body{
     background-color: var(--bgbody);
@@ -299,8 +307,20 @@ button:active {
 }
 
 /* Sezione 5 */
-
+.sec5-top{
+    padding-bottom: 100px;
+    padding: 50px;
+    width: 45%;
+    text-align: ;
+}
+.sec5-top h2{
+    padding-bottom: 50px;
+    font-size: 32px;
+}
 .sect5{
+    padding-bottom: 300px;
+}
+.sec5{
     width: 100%;
     display: flex;
 }
@@ -310,8 +330,30 @@ button:active {
 .s52{
     width: calc(100% / 3);
 }
-.s53{
-    width: calc(100% / 3);
+.s54{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s55 img{
+    width: 80%;
+    -webkit-filter: invert(100%);
+}
+.s55{
+    display: flex;
+    width: 50%;
+}
+.arizona{
+    background-color: var(--secondoc);
+}
+.design{
+    background-color: var(--primoc);
+}
+.florida{
+    background-color: var(--terzoc);
+}
+.topps{
+    background-color: var(--quartoc);
 }
 
 
