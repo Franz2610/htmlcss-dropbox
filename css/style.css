@@ -322,13 +322,27 @@ button:active {
 }
 .sec5{
     width: 100%;
+    height: 30vh;
     display: flex;
 }
 .s51{
     width: calc(100% / 3);
+    display: flex;
 }
 .s52{
     width: calc(100% / 3);
+    height: 43.7vh;
+    padding: 30px;
+    background-color: rgb(240, 240, 240);
+    font-size: 12px;
+}
+.s52 img{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.s52 p{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .s54{
     width: 100%;
@@ -336,12 +350,15 @@ button:active {
     flex-wrap: wrap;
 }
 .s55 img{
-    width: 80%;
+    width: 50%;
     -webkit-filter: invert(100%);
 }
 .s55{
     display: flex;
     width: 50%;
+    height: 73%;
+    justify-content: center;
+    align-items: center;
 }
 .arizona{
     background-color: var(--secondoc);
@@ -349,16 +366,27 @@ button:active {
 .design{
     background-color: var(--primoc);
 }
-#designh{
-    height: -100px;
-    width: 100px;
-    margin-left: 80px;
-}
 .florida{
     background-color: var(--terzoc);
 }
 .topps{
     background-color: var(--quartoc);
+}
+.bicycle{
+    background-color: var(--quintoc);
+}
+.hearst_corp{
+    background-color: var(--sestoc);
+}
+.lonely_planet{
+    background-color: var(--settimoc);
+}
+.clear_channel{
+    background-color: var(--ottavoc);
+}
+.s52 hr{
+    max-width: 60px;
+    color: var(--colort);
 }
 
 
