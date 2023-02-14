@@ -78,6 +78,16 @@ html{
     justify-content: flex-start;
     color: lightgray;
 }
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.pad-30{
+    padding: 30px;
+}
+.mar-100{
+    margin-bottom: 300px;
+}
 
 
 
@@ -388,6 +398,24 @@ button:active {
     max-width: 60px;
     color: var(--colort);
 }
+.bgloghi{
+    background-color: var(--bgmain1);
+    margin-top: 100px;
+    padding: 100px;
+    color: var(--secondoc);
+}
+.w-40{
+    width: 40%;
+}
+.w-27{
+    width: 27%;
+    background-color: var(--bgbody);
+    color: #000000;
+}
+
+/* Sezione 6 */
+
+
 
 
 
@@ -401,6 +429,7 @@ button:active {
 footer{
     background-color: #000000;
     color: var(--bgbody);
+    margin-top: 180px;
 }
 footer ul{
     padding: 20px;
