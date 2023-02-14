@@ -9,6 +9,7 @@
     --bgfooter: #000000;
     --bgbody: #ffffff;
     --button: #0061FF;
+    --colort: #999;
 }
 body{
     background-color: var(--bgbody);
@@ -32,6 +33,21 @@ html{
 }
 .margb{
     margin-top: 250px;
+}
+.marg-10{
+    margin-bottom: 10px;
+}
+.marg-20{
+    margin-bottom: 20px;
+}
+.marg-30{
+    margin-bottom: 30px;
+}
+.padd-20{
+    padding: 20px;
+}
+.mart-10{
+    margin-top: -30px;
 }
 .center{
     text-align: center;
@@ -109,6 +125,9 @@ main{
     color: #ffffff;
     padding: 5px;
  }
+ .margl{
+    margin-left: 30px;
+ }
  .jumbo{
     width: 55%;
     position: absolute;
@@ -124,8 +143,8 @@ main{
 .title{
     font-size: 3rem;
 }
-main p{
-    padding: 50px;
+.sect1{
+    padding: 30px;
 }
 
 /* 2° Sezione */
@@ -162,7 +181,7 @@ legend {
   
 button:hover,
 button:focus {
-    color: #999;
+    color: var(--colort);
 }
   
 button:active {
@@ -170,6 +189,63 @@ button:active {
     color: black;
     outline: 1px solid black;
 }
+.tab{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bordo{
+    border: 1px solid lightgray;
+}
+.sect2 li{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.sect2 button{
+    display: block;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+.sect2 hr{
+    max-width: 22%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--colort);
+}
+.intesta{
+    padding: 5px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.orizz{
+    width: 100%;
+}
+.eleft{
+    width: 70%;
+    padding: 20px;
+}
+.bright{
+    width: 30%;
+    float: right;
+    margin-top: -185px;
+    margin-right: -30px;
+    padding: 30px;
+}
+.time{
+    margin-bottom: 40px;
+    color: var(--colort);
+}
+.largh{
+    width: 30%;
+}
+
+
 
 
 
