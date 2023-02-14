@@ -129,7 +129,7 @@ main{
     margin-left: 30px;
  }
  .jumbo{
-    width: 55%;
+    width: 50%;
     position: absolute;
 }
 .right{
@@ -148,7 +148,10 @@ main{
 }
 
 /* 2° Sezione */
-
+.sect2{
+    padding-top: 300px;
+    padding-bottom: 300px;;
+}
 .fattura{
     padding-bottom: 50px;
     padding-top: 50px;
@@ -245,6 +248,71 @@ button:active {
     width: 30%;
 }
 
+/* Sezione 3*/
+.sect3{
+    padding-bottom: 300px;
+}
+.containersect3{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+}
+.leftsect3{
+    width: 70%;
+}
+.rightsect3{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 30%;
+    justify-content: center;
+}
+.sect3 img{
+    width: 100%;
+}
+.sect3 button{
+    background-color: var(--bgbody);
+    border: 1px solid var(--bgfooter);
+    color: var(--bgfooter);
+}
+.sect3 p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Sezione 4*/
+
+.sect4 h1{
+    font-size: 32px;
+}
+.sect4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 300px;
+}
+.s4{
+    width: 30%;
+}
+.sect4 img{
+    width: 100%;
+}
+
+/* Sezione 5 */
+
+.sect5{
+    width: 100%;
+    display: flex;
+}
+.s51{
+    width: calc(100% / 3);
+}
+.s52{
+    width: calc(100% / 3);
+}
+.s53{
+    width: calc(100% / 3);
+}
 
 
 
