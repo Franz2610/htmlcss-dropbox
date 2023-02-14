@@ -349,6 +349,11 @@ button:active {
 .design{
     background-color: var(--primoc);
 }
+#designh{
+    height: -100px;
+    width: 100px;
+    margin-left: 80px;
+}
 .florida{
     background-color: var(--terzoc);
 }
