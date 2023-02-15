@@ -120,6 +120,7 @@ html{
  header li:hover{
     text-decoration: underline 2px solid black;
     transition: 1s;
+    text-underline-offset: 1.5rem;
  }
  header button{
     background-color: var(--button);
